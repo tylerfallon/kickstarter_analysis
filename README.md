@@ -12,9 +12,13 @@ The purpose of this project is to create a visualization of the Kickstarter data
 
 ### Analysis of Outcomes Based on Launch Date
 
+![OutcomesByLaunchDate](https://github.com/tylerfallon/kickstarter_analysis/blob/main/resources/Theater_Outcomes_vs_Launch.png?raw=true)
+
 This chart shows the various campaign outcomes by month, which are taken from a pivot table that is filtered by category and launch date. It portrays the number of successful, failed, and canceled campaigns in a given month using color-coded lines so that the various outcomes can be easily compared. 
 
 ### Analysis of Outcomes Based on Goals
+
+![OutcomesVsGoals](https://github.com/tylerfallon/kickstarter_analysis/blob/main/resources/Outcomes_vs_Goals.png?raw=true)
 
 This chart shows the various campaign outcomes based on the Goal Monetary Range. The possible outcomes for campaign- successful, failed, and cancelled- were plotted with the y-axis showing the percentage of campaigns with each outcome and the x-axis showing the different monetary ranges for each campaign. When creating the table for the data, to retrieve the count of each outcome, the COUNTIF statement was used. 
 
@@ -26,13 +30,9 @@ When creating charts from our datasets, small bugs in the code used to derive ce
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
-![OutcomesByLaunchDate](https://github.com/tylerfallon/kickstarter_analysis/blob/main/resources/Theater_Outcomes_vs_Launch.png?raw=true)
-
 From the line chart, it can be seen that May is the best month in which to start a campaign, as it produces the highest number of successful outcomes. In addition, December appears to be the worst month to launch a theater campaign, as it has the lowest number of successful outcomes. The number of failed and canceled campaigns are also relatively consistent across each month while there is a clear favor of the summer months (May through July) as the best time to start a campaign. 
 
 - What can you conclude about the Outcomes based on Goals?
-
-![OutcomesVsGoals](https://github.com/tylerfallon/kickstarter_analysis/blob/main/resources/Outcomes_vs_Goals.png?raw=true)
 
 It can clearly be seen that play campaigns with higher goal monetary ranges have a higher percentage chance of failing. There is a clear trend downwards of campaign success as the goal amount becomes larger and larger. 
 
